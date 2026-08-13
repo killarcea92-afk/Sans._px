@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c0b10">
+  <meta name="description" content="A little cinematic apology made with memories, flowers and Istanbul.">
+  <title>A Little Something For You 🌹</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="petals" aria-hidden="true"></div>
+
+  <div class="music-pill" id="musicPill">
+    <span class="music-dot"></span>
+    <span id="musicText">Music awaits</span>
+    <button id="musicToggle" aria-label="Open music player">♫</button>
+  </div>
+
+  <main>
+    <section class="hero section" id="hero">
+      <div class="hero-overlay"></div>
+      <div class="ornament">✦</div>
+      <p class="eyebrow">A little journey through Istanbul</p>
+      <h1>For the girl<br><em>who deserves a smile.</em></h1>
+      <p class="hero-copy">I made this little corner of the internet because a simple “sorry” didn't feel like enough.</p>
+      <button class="enter-btn" id="enterBtn">Enter the story <span>↓</span></button>
+      <div class="scroll-hint">scroll slowly</div>
+    </section>
+
+    <section class="section dark intro">
+      <div class="container narrow reveal">
+        <p class="eyebrow">Chapter I · No excuses</p>
+        <h2>Okay…<br><em>I know I messed up.</em></h2>
+        <p class="lead">I'm not here to make excuses or turn this into a dramatic speech. I just wanted to make something that says what I should have said properly.</p>
+        <div class="tiny-apology" aria-hidden="true">
+          <div class="mini-boy">⌣</div>
+          <div class="mini-flower">🌷</div>
+          <div class="mini-caption">“I’m sorry.”</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section photo-section" style="--bg:url('assets/friend-03.jpg')">
+      <div class="photo-shade"></div>
+      <div class="container reveal photo-copy">
+        <p class="eyebrow">Chapter II · The person behind the memories</p>
+        <h2>Some people just<br><em>make ordinary days better.</em></h2>
+        <p>And somehow, you became one of those people in my life.</p>
+        <div class="floating-polaroid">
+          <img src="assets/friend-01.jpg" alt="A memory">
+          <span>one of my favourite memories</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark memories">
+      <div class="container">
+        <div class="reveal">
+          <p class="eyebrow">Chapter III · Little moments</p>
+          <h2>Not every memory<br><em>needs a caption.</em></h2>
+          <p class="lead">Sometimes a picture is enough to remind us how much a friendship can mean.</p>
+        </div>
+        <div class="gallery">
+          <figure class="memory-card reveal"><img src="assets/memory-01.jpg" alt="Friendship memory"><figcaption>One of those nights.</figcaption></figure>
+          <figure class="memory-card tall reveal"><img src="assets/memory-02.jpg" alt="School memory"><figcaption>Back when everything was simpler.</figcaption></figure>
+          <figure class="memory-card reveal"><img src="assets/memory-03.jpg" alt="A school memory"><figcaption>Another little chapter.</figcaption></figure>
+          <figure class="memory-card reveal"><img src="assets/friend-02.jpg" alt="A candid photo"><figcaption>And then there are these faces.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="container split">
+        <div class="reveal">
+          <p class="eyebrow">Chapter IV · The actual apology</p>
+          <h2>I’m genuinely<br><em>sorry.</em></h2>
+          <p class="lead">Whatever I did that upset you, I wish I had handled it better. You didn't deserve to feel hurt because of my mistake.</p>
+          <p class="lead">I can't change the moment, but I can learn from it. And I hope this little ridiculous website at least manages to steal one tiny smile from you.</p>
+        </div>
+        <div class="apology-scene reveal">
+          <div class="scene-moon"></div>
+          <div class="mini-character boy-large">
+            <div class="head"></div><div class="body"></div><div class="arm left"></div><div class="arm right"></div>
+            <div class="leg one"></div><div class="leg two"></div>
+          </div>
+          <div class="girl-icon">♡</div>
+          <div class="flower-offer">🌹</div>
+          <div class="scene-text">please?</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section istanbul">
+      <div class="container center reveal">
+        <p class="eyebrow">Chapter V · From one side of the Bosphorus</p>
+        <h2>One flower.<br><em>One apology.</em></h2>
+        <p class="lead">No grand promises. No pressure. Just a small reminder that your friendship matters to me.</p>
+        <div class="flower-line">❦　🌹　❦</div>
+      </div>
+    </section>
+
+    <section class="section finale" id="finale">
+      <div class="finale-glow"></div>
+      <div class="container center reveal">
+        <p class="eyebrow">The final scene</p>
+        <h2>And now…<br><em>the messenger arrives.</em></h2>
+        <div class="erdem-stage">
+          <div class="erdem-shadow"></div>
+          <img class="erdem" src="assets/erdem.jpg" alt="Erdem">
+          <div class="rose rose-final">🌹</div>
+          <div class="offer-bubble">I brought this for you.<br><strong>I'm sorry.</strong></div>
+        </div>
+        <div class="final-message">
+          <span>To my best friend,</span>
+          <h3>I'm sorry for making you upset.</h3>
+          <p>I hope this made you smile, even just a little. 🌹</p>
+          <p class="signature">— from the idiot who made the website instead of simply behaving properly</p>
+        </div>
+        <button class="replay" id="replayBtn">↻ Replay the story</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="spotify-modal" id="spotifyModal" aria-hidden="true">
+    <div class="spotify-card">
+      <button class="close" id="closeSpotify" aria-label="Close">×</button>
+      <p class="eyebrow">Our soundtrack</p>
+      <h3>Let the music play.</h3>
+      <p>Tap play below if your browser doesn't start it automatically.</p>
+      <iframe
+        title="Spotify track"
+        src="https://open.spotify.com/embed/track/65wdzLeZLnsJf0Z1CQrAKQ?utm_source=generator&theme=0"
+        width="100%" height="152" frameborder="0"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"></iframe>
+      <a href="https://open.spotify.com/track/65wdzLeZLnsJf0Z1CQrAKQ" target="_blank" rel="noopener">Open in Spotify ↗</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
